@@ -1,0 +1,25 @@
+{
+  "name": "tpd-interactive-3",
+  "version": "1.0.0",
+  "description": "tpd-interactive improvement",
+  "homepage": "https://github.com/hbdmer/tpd-interactive-3#readme",
+  "bugs": {
+    "url": "https://github.com/hbdmer/tpd-interactive-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbdmer/tpd-interactive-3.git"
+  },
+  "license": "ISC",
+  "author": "dmerced05",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
